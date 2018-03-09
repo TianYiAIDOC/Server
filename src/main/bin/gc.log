@@ -1,0 +1,15 @@
+Java HotSpot(TM) 64-Bit Server VM (25.161-b12) for windows-amd64 JRE (1.8.0_161-b12), built on Dec 19 2017 17:52:25 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16702848k(10888624k free), swap 33403836k(26427584k free)
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:+ManagementServer -XX:MaxHeapSize=2147483648 -XX:MaxNewSize=805306368 -XX:NewSize=805306368 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+0.641: Total time for which application threads were stopped: 0.0002250 seconds, Stopping threads took: 0.0000213 seconds
+1.103: Total time for which application threads were stopped: 0.0001558 seconds, Stopping threads took: 0.0000219 seconds
+1.110: Total time for which application threads were stopped: 0.0001137 seconds, Stopping threads took: 0.0000207 seconds
+Heap
+ PSYoungGen      total 688128K, used 70780K [0x00000000d0000000, 0x0000000100000000, 0x0000000100000000)
+  eden space 589824K, 12% used [0x00000000d0000000,0x00000000d451f148,0x00000000f4000000)
+  from space 98304K, 0% used [0x00000000fa000000,0x00000000fa000000,0x0000000100000000)
+  to   space 98304K, 0% used [0x00000000f4000000,0x00000000f4000000,0x00000000fa000000)
+ ParOldGen       total 262144K, used 0K [0x0000000080000000, 0x0000000090000000, 0x00000000d0000000)
+  object space 262144K, 0% used [0x0000000080000000,0x0000000080000000,0x0000000090000000)
+ Metaspace       used 8012K, capacity 8200K, committed 8576K, reserved 1056768K
+  class space    used 972K, capacity 1025K, committed 1152K, reserved 1048576K
